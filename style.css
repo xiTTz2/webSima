@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+li>#bloco-1 {
+    width: 12em;
+    height: 1px;
+    margin: 5px;
+}
+
+ul {
+    height: 0px;
+    right: 0;
+    position: absolute;
+}
+
+li>div>h1 {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+
+}
+body{
+    background-color: rgb(165, 165, 165);
+}
+
+
+#inicio {
+    height: 50px;
+    box-shadow: 3px 3px 10px black;
+    padding: 10px;
+    list-style-type: none;
+    background-color: rgb(241, 241, 241);
+}
+
+ul>div>a {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4px;
+    align-content: center;
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+    transition: 700ms;
+    border-radius: 10px;
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: rgb(11, 124, 1);
+    transition: 500ms;
+    color: white;
+    height: auto;
+}
+
+
+.cards{
+   z-index: 2;
+    border: 1px solid;
+    width: 20%;
+    box-shadow: 3px 3px 3px black;
+    height: 200px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    justify-content: center;
+    align-items: end;
+    align-content: end;
+    padding: 30px;
+    transition: 400ms;
+
+}
+
+.cards:hover{
+    transform: scale(1.095);
+    transition: 700ms;
+}
+
+.cardsgeral{
+    z-index: 3;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+
+}
+.fundo-blur
+{
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 800px;
+    height: 800px;
+    filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%, rgb(9, 255, 0), rgba(3, 214, 168, 0.3));
+    opacity: 0.3;
+}
