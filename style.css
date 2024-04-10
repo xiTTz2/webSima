@@ -4,26 +4,46 @@
 
 }
 
-li>#bloco-1 {
-    width: 12em;
-    height: 1px;
+/* SUPERIOR */
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index:3;
+}
+
+#bloco-1 {
+    display: flex;
+    left: 15px;
+    position: fixed;
+    top: 10px;
     margin: 5px;
+    
 }
-
-ul {
-    height: 0px;
-    right: 0;
-    position: absolute;
-}
-
-li>div>h1 {
+div>h1 {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 28px;
 
 }
-body{
-    background-color: rgb(165, 165, 165);
+
+#bloco-2{
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: end;
+    padding: 0px 20px;
+}   
+
+
+
+#bloco-2> a:hover {
+    cursor: pointer;
+    background-color: rgb(11, 124, 1);
+    transition: 500ms;
+    color: white;
+    height: auto;
 }
 
 
@@ -34,8 +54,7 @@ body{
     list-style-type: none;
     background-color: rgb(241, 241, 241);
 }
-
-ul>div>a {
+#bloco-2>a {
     font-family: 'Courier New', Courier, monospace;
     margin: 4px;
     align-content: center;
@@ -45,61 +64,116 @@ ul>div>a {
     transition: 700ms;
     border-radius: 10px;
 }
-#titulo-cards{
+
+#titulo-cards {
     font-style: oblique;
     font-size: large;
 
 }
-a:hover {
+.icon-i{
+    display: none;
     cursor: pointer;
-    background-color: rgb(11, 124, 1);
-    transition: 500ms;
-    color: white;
-    height: auto;
 }
 
 
-.cards{
-   z-index: 2;
-    width: 20%;
-    height: 65%;
+
+/* CARDS */
+
+.cards {
+    z-index: 2;
+    width: 400px;
+    height: 300px;
     border-radius: 16px;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
     color: black;
     margin: 20px;
-    transition: 400ms;
+    transition: all 0.4s;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-top: 100px;
+}
+
+#cards-img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+    display: block;
+}   
+
+
+.cards:hover #cards-img {
+    display: block;
+    filter: brightness(0.1);
+    position: fixed;
+}
+
+
+
+#cards-texto {
+
+    width: 100%;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+    transition: 0.7s;
+    font-size: 0px;
+    display: none;
+    color: white;
+    transform: scale(0);
+}
+
+
+.cards:hover #cards-texto {
+    display: grid;
+    height: 100%;
+    opacity: 1;
+    font-size: 1.8rem;
+    font-size: 14px;
+    transform: rotate(0deg);
+    transition: 0.6s;
 
 }
 
-#cards-texto{
-    padding: 21px;
-    height: 40%;    
-    display: inline-grid;
-}
-.cards > div > img{
+.cards>div>img {
     width: 100%;
     height: 100%;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px;
+
 }
 
-.cards:hover{
+.cards:hover {
     transform: scale(1.095);
-    transition: 700ms;
-    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 119, 0.801);
 }
 
-.cardsgeral{
-    z-index: 3;
+.cardsgeral {
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    height: 70vh;
+    width: 97vw;
+    height: 70%;
     display: flex;
     align-items: center;
     align-content: center;
 }
-.fundo-blur
-{
+
+
+
+/* FUNDO SITE */
+
+body {
+    background-color: rgba(177, 177, 177, 0.767);
+}
+
+.fundo-blur {
     z-index: 1;
     position: fixed;
     top: 50%;
@@ -108,6 +182,34 @@ a:hover {
     width: 800px;
     height: 800px;
     filter: blur(100px);
-    background: radial-gradient(circle at 50% 50%, rgb(9, 255, 0), rgba(3, 214, 168, 0.3));
+    background: radial-gradient(circle at 50% 50%, rgb(9, 255, 0), rgba(35, 226, 185, 0.521));
     opacity: 0.3;
+}
+
+
+/* responsivo */
+
+
+@media screen and (max-width: 768px) {
+    
+    .icon{
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    #menu-burguer{
+        display: flex;
+        justify-content: center;
+        padding-right: 30px;
+    }
+
+
+    #bloco-2{
+        position: fixed;
+        left: -200%;
+    }
 }
