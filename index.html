@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
     <title>Sima</title>
+  
 </head>
 
 <body>
@@ -13,17 +14,17 @@
     
             <!-- Cabeçalho do site - Possivel alteração -->
             <div id="bloco-1">
-                <h1>Sima</h1>
+                <img src="assets/SandroMaquinasLogo.png"/>
             </div>
         
-                <div class="icon">
-                        <i><img src="assets/icons/close-line.png" id="close" class="icon-i"></i>
-                        <i><img src="assets/icons/menu-fill.png" id="menu-burguer" class="icon-i"></i>
+                <div class="menu-burguer">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
                 </div>
                 <div id="bloco-2">
                     <a>Serviços</a>
                     <a>Avaliações</a>
-                    <a>Sobre</a>
                     <a>Contato</a>
                 </div>
             
@@ -31,23 +32,29 @@
     </header>
 
     <!-- Area principal para os elementos do site - Possivel alteração -->
-    
+    <section class="home">
+        <div class="container">
+            <div class="box">
+                <h1>Sima Manutenções</h1>
+                <h2>Facilitando sua vida com eficiência.</h2>
+            </div>
+        </div>
+    </section>
     
     <div class="cardsgeral">
 
         <div class="card-manuMaquinas cards">
-            <div>
-                <img />
+            <div id="cards-img">
             </div>
-            <div>
+            <div id="cards-texto">
                 <p id="titulo-cards">Manutenções</p>
-                <p>Conserto de máquinas de lavar, micro-ondas, ar-condicionado.</p>
+                <p>Reparos de eletrodomésticos.</p>
             </div>
         </div>
 
         <div class="card-instalacaoEletrica cards">
             <div id="cards-img">
-                <img src="assets/instalacaoeletrica.jpg"/>
+                <!-- <img src="assets/instalacaoeletrica.jpg"/> -->
               
             </div>
             <div id="cards-texto">
@@ -58,7 +65,7 @@
         </div>
         <div class="card-eletronica cards">
             <div id="cards-img">
-                <img  src="assets/reparodeplaca.jpg"/>
+                <!-- <img  src="assets/reparodeplaca.jpg"/> -->
             </div>
             <div id="cards-texto">
                 <p id="titulo-cards">Eletrônica</p>
@@ -67,9 +74,22 @@
         </div>
     </div>
     <section class="avaliacao"></section>
-    <section class="Sobre"></section>
-    <section class="contato"></section>
-    <section class="fundo-blur"></section>
+   
+    
+    <section >
+        <div class="fundo-blur"></div>
+    </section>
+    <section class="contato">
+        <div>
+            <div>
+                <p>Deseja contatar nossos serviços? Clique no link abaixo</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
