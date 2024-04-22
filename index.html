@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
     <title>Sima</title>
-  
+
 </head>
 
 <body>
     <header id="inicio">
-    
+        <div id="container-inicio" style="width: 100%;">
             <!-- Cabeçalho do site - Possivel alteração -->
             <div id="bloco-1">
-                <img src="assets/SandroMaquinasLogo.png"/>
+                <img src="assets/SandroMaquinasLogo.png" />
             </div>
-        
-                <div class="menu-burguer">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                </div>
-                <div id="bloco-2">
-                    <a>Serviços</a>
-                    <a>Avaliações</a>
-                    <a>Contato</a>
-                </div>
-            
-       
+
+            <div class="menu-burguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div id="bloco-2">
+                <a href="#servicos" class="a-menu">Serviços</a>
+                <a href="#avaliacao" class="a-menu">Avaliações</a>
+                <a href="#contato" class="a-menu">Contato</a>
+            </div>
+
+        </div>
     </header>
 
     <!-- Area principal para os elementos do site - Possivel alteração -->
@@ -40,8 +40,9 @@
             </div>
         </div>
     </section>
+
     
-    <div class="cardsgeral">
+    <div class="cardsgeral" id="servicos">
 
         <div class="card-manuMaquinas cards">
             <div id="cards-img">
@@ -55,13 +56,13 @@
         <div class="card-instalacaoEletrica cards">
             <div id="cards-img">
                 <!-- <img src="assets/instalacaoeletrica.jpg"/> -->
-              
+
             </div>
             <div id="cards-texto">
                 <p id="titulo-cards">Instalação Elétrica</p>
                 <p>Instalão elétrica residencial e industrial</p>
             </div>
-            
+
         </div>
         <div class="card-eletronica cards">
             <div id="cards-img">
@@ -73,25 +74,48 @@
             </div>
         </div>
     </div>
-    <section class="avaliacao"></section>
-   
     
     <section style="height: 100px;">
         <div class="fundo-blur"></div>
     </section>
-    <section class="contato">
-        
-                <p style="display:flex; position: absolute;">Precisa de ajuda? Chame no WhatSapp!</p>
-                <div id="btnWat">
-                    <span id="buttonWat">
-                        <img class="imgWat" src="assets/whatsapp.png"/>
-                        <a>
-                            Whatsapp
-                        </a>
-                    </span>
-                </div>
+
+    <section class="avaliacao" id="avaliacao">
+        <div class="container-avaliacao">
+            <div>
+                <p>
+                    Avalie para melhorar meus serviços
+                </p>
+            </div>
             
-  
+
+            <div class="btnFeed">
+                <a id="btnFeedback" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeKOtcmusf6XN4eoc6wqhBSYNnn_XfZLxlojSCpDmH66b7F2w/viewform?usp=sf_link"> 
+                    <span class="geralFeedback">
+                        <img src="assets/google-forms.png"/>
+                        Avalie
+                    </span>
+                </a>
+    
+            </div>
+          
+        </div>
+    </section>
+
+
+    <section class="contato" id="contato">
+
+        <p style="display:flex; position: absolute;">Precisa de ajuda? Chame no WhatsApp!</p>
+        <div id="btnWat">
+            <a target="_blank" style="text-decoration: none;" href="https://wa.me/5548991942507">
+                <span id="buttonWat">
+                    <img class="imgWat" src="assets/whatsapp.png" />
+                    Whatsapp
+                </span>
+            </a>
+
+        </div>
+
+
     </section>
     <script src="script.js"></script>
 </body>
