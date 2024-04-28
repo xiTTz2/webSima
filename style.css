@@ -449,12 +449,6 @@ body {
         font-size: 19px;
     }
 
-    .box {
-        display: block;
-        margin: 32px;
-    }
-
-
     .menu-burguer {
         left: 11%;
         display: block;
@@ -466,7 +460,11 @@ body {
 
 
     .container {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
     }
 
 
@@ -498,6 +496,11 @@ body {
         transform: translateY(-4px) rotate(-45deg);
 
 
+    }
+
+
+    #bloco-2.activate{
+        right: -200%;
     }
 
     #bloco-2>a {
