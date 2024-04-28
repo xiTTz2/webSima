@@ -207,7 +207,6 @@ div>h1 {
 
 .avaliacao{
     font-size: 20px;
-    width: 100vw;
     display: flex;
     height: 200px;
     position: relative;
@@ -361,11 +360,12 @@ div>h1 {
 
 #btnWat {
     
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: center;
 }
 
 html {
@@ -516,5 +516,8 @@ body {
         padding: 5px;
     }
 
+    .avaliacao{
+        width: 100vw;
+    }
 
 }
