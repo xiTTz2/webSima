@@ -1,14 +1,14 @@
 const hamburger = document.querySelector(".menu-burguer");
 const bloco2 = document.querySelector("#bloco-2");
-const menu = document.querySelector("#bloco a");
+const menu = document.querySelector("#navmenu");
+const menu2 = document.querySelector("#navmenu2");
+const menu3 = document.querySelector("#navmenu3");
 
 
 
 if (hamburger) {
 
     
-    // hamburger.classList.add("active");
-    //     bloco2.classList.add("active");
     // Quando clicado o menu aparece para o usuario
     hamburger.addEventListener("click", () => {
 
@@ -20,11 +20,49 @@ if (hamburger) {
 
 }
 
-if(menu){
-    menu.addEventListener("click", () =>{
-        // hamburger.classList.toggle("activate");
-        bloco2.classList.toggle("active");
+if(menu,menu2, menu3){
+
+    //Funções para fechar o nav menu sem precisar clicar no "x"
+    document.addEventListener('click', e =>{//Fecha se clica fora do navmenu
+        if((!bloco2.contains(e.target)) && e.target !== hamburger){
+            hamburger.classList.toggle("active");
+            bloco2.classList.toggle("active");
+        }
     });
+
+
+    //Assim que clicar nos botões ele fecha automaticamente.
+    menu.addEventListener("click", e =>{
+
+        if(menu.contains(e.target)){
+            
+            hamburger.classList.toggle("active");
+            bloco2.classList.toggle("active");
+        }
+         
+
+
+    });
+    menu2.addEventListener("click", e =>{
+
+        if(menu2.contains(e.target)){
+            
+            hamburger.classList.toggle("active");
+            bloco2.classList.toggle("active");
+        }
+
+        
+
+    });
+    menu3.addEventListener("click", e =>{
+
+        if(menu3.contains(e.target)){
+            
+            hamburger.classList.toggle("active");
+            bloco2.classList.toggle("active");
+        }
+    });
+
 
 }
 
