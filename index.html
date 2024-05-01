@@ -7,8 +7,8 @@
     <link href="style.css" rel="stylesheet" />
     <title>Sima Manutenções</title>
     <meta name="description"
-        content="Manutenção/conserto de eletrodomésticos, placas eletrónicas e instalação elétrica" />
-        <link rel="icon" href="./assets/maquinaslog.png">
+        content="Manutenção/conserto de eletrodomésticos, placas eletrónicas e instalação elétrica residencial e industrial" />
+    <link rel="icon" href="./assets/maquinaslog.png">
 
 </head>
 
@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <!-- Area principal para os elementos do site - Possivel alteração -->
+    <!-- Area principal para os elementos do site -->
     <section class="home">
         <div class="container">
             <div class="box">
@@ -47,8 +47,11 @@
     <div class="cardsgeral" id="servicos">
 
         <div class="card-manuMaquinas cards">
+
             <div id="cards-img">
+                <!-- <div class="img" id="fotoinstaleletrica"></div> -->
             </div>
+
             <div id="cards-texto">
                 <p id="titulo-cards">Manutenções</p>
                 <p>Reparos de eletrodomésticos.</p>
@@ -57,8 +60,11 @@
 
         <div class="card-instalacaoEletrica cards">
             <div id="cards-img">
-                <!-- <img src="assets/instalacaoeletrica.jpg"/> -->
 
+                <div class="img"> 
+                    <img class="img" id="fotoinstaleletrica" loading="lazy" />
+                </div>
+                
             </div>
             <div id="cards-texto">
                 <p id="titulo-cards">Instalação Elétrica</p>
@@ -68,7 +74,9 @@
         </div>
         <div class="card-eletronica cards">
             <div id="cards-img">
-                <!-- <img  src="assets/reparodeplaca.jpg"/> -->
+                <div class="img" id="fotoplacaeletronica">
+                    <img class="img" id="fotoplacaeletronica" loading="lazy" />
+                </div>
             </div>
             <div id="cards-texto">
                 <p id="titulo-cards">Eletrônica</p>
@@ -85,11 +93,12 @@
         <div class="centralcontainer">
             <p>Por que a Sima Manutenções?</p>
             <P>
-                Nosso foco é sempre no respeito ao cliente e no seu dinheiro. Procuramos atender com base na confiabilidade e com eficiência no serviço executado.
+                Nosso foco é sempre no respeito ao cliente e no seu dinheiro. Procuramos atender com base na
+                confiabilidade e com eficiência no serviço executado.
             </P>
         </div>
     </section>
-    
+
     <section class="experiencia">
         <div class="centralcontainerexp">
             <p>Experiência</p>
@@ -112,7 +121,7 @@
                 <a id="btnFeedback" target="_blank"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeKOtcmusf6XN4eoc6wqhBSYNnn_XfZLxlojSCpDmH66b7F2w/viewform?usp=sf_link">
                     <span class="geralFeedback">
-                        <img src="assets/google-forms.png" />
+                        <img src="assets/google-forms.png" loading="lazy" />
                         Avalie
                     </span>
                 </a>
@@ -124,23 +133,24 @@
 
     <section class="contato" id="contato">
         <div>
-            
-        
-        <div>
-            <p >Precisa de ajuda? Chame no WhatsApp!</p>
-        </div>
-    
-        <div id="btnWat">
-            <a target="_blank" style="text-decoration: none;" href="https://wa.me/5548991942507">
-                <span id="buttonWat">
-                    <img class="imgWat" src="assets/whatsapp.png" />
-                    Whatsapp
-                </span>
-            </a>
 
+
+            <div>
+                <p>Precisa de ajuda? Chame no WhatsApp!</p>
+            </div>
+
+            <div id="btnWat">
+                <a target="_blank" style="text-decoration: none;" href="https://wa.me/5548991942507">
+                    <span id="buttonWat">
+                        <img class="imgWat" src="assets/whatsapp.png" loading="lazy" />
+                        Whatsapp
+                    </span>
+                </a>
+
+            </div>
         </div>
-    </div>
     </section>
     <script src="script.js"></script>
 </body>
+
 </html>

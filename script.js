@@ -8,7 +8,7 @@ const menu3 = document.querySelector("#navmenu3");
 
 if (hamburger) {
 
-    
+
     // Quando clicado o menu aparece para o usuario
     hamburger.addEventListener("click", () => {
 
@@ -16,48 +16,40 @@ if (hamburger) {
         bloco2.classList.toggle("active");
     });
 
-    
+
 
 }
 
-if(menu,menu2, menu3){
+if (menu, menu2, menu3) {
 
     //Funções para fechar o nav menu sem precisar clicar no "x"
-    document.addEventListener('click', e =>{//Fecha se clica fora do navmenu
-        if((!bloco2.contains(e.target)) && e.target !== hamburger){
-            hamburger.classList.toggle("active");
-            bloco2.classList.toggle("active");
-        }
-    });
-
 
     //Assim que clicar nos botões ele fecha automaticamente.
-    menu.addEventListener("click", e =>{
+    menu.addEventListener("click", e => {
 
-        if(menu.contains(e.target)){
-            
-            hamburger.classList.toggle("active");
-            bloco2.classList.toggle("active");
-        }
-         
+        if (menu.contains(e.target)) {
 
-
-    });
-    menu2.addEventListener("click", e =>{
-
-        if(menu2.contains(e.target)){
-            
             hamburger.classList.toggle("active");
             bloco2.classList.toggle("active");
         }
 
-        
+
 
     });
-    menu3.addEventListener("click", e =>{
 
-        if(menu3.contains(e.target)){
-            
+    menu2.addEventListener("click", e => {
+
+        if (menu2.contains(e.target)) {
+
+            hamburger.classList.toggle("active");
+            bloco2.classList.toggle("active");
+        }
+    });
+
+    menu3.addEventListener("click", e => {
+
+        if (menu3.contains(e.target)) {
+
             hamburger.classList.toggle("active");
             bloco2.classList.toggle("active");
         }
@@ -65,4 +57,6 @@ if(menu,menu2, menu3){
 
 
 }
+
+
 
