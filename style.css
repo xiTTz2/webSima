@@ -46,7 +46,7 @@ header {
     width: 61%;
     display: none;
     height: auto;
-    align-content: center;
+
 }
 
 div>h1 {
@@ -60,7 +60,7 @@ div>h1 {
 
     display: flex;
     align-items: center;
-    align-content: center;
+
     justify-content: end;
     width: 100%;
     padding: 0px 20px;
@@ -72,11 +72,12 @@ div>h1 {
 
 #bloco-2>a:hover {
     cursor: pointer;
-    background-color:#01464d;
+    background-color: #01464d;
     transition: 500ms;
     color: white;
     height: auto;
 }
+
 #inicio {
     z-index: 6;
     height: 50px;
@@ -95,7 +96,7 @@ div>h1 {
 #bloco-2>a {
     font-family: 'Courier New', Courier, monospace;
     margin: 4px;
-    align-content: center;
+
     padding: 10px;
     font-size: 17px;
     color: black;
@@ -155,7 +156,7 @@ div>h1 {
     opacity: 0;
     justify-content: center;
     align-items: center;
-    align-content: center;
+
     border-radius: 15px;
     transition: 0.7s;
     font-size: 0px;
@@ -176,29 +177,29 @@ div>h1 {
 
 }
 
-#fotoplacaeletronica{
+#fotoplacaeletronica {
     background-image: url(assets/placaeletronica.jpg);
 }
 
 
-#fotoinstaleletrica{
+#fotoinstaleletrica {
     background-image: url(assets/quadroeletrico.jpg);
-  
+
 }
 
-#fotoreparoeletrodomestico{
+#fotoreparoeletrodomestico {
     background-image: url(assets/consertoeletro.jpg);
-    
+
 }
 
 
 
-.img{
-    box-shadow: inset 0px 0px 10px 5px  black;
+.img {
+    box-shadow: inset 0px 0px 10px 5px black;
     display: flex;
     width: 100%;
     height: 100%;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
@@ -210,48 +211,8 @@ div>h1 {
     cursor: pointer;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.801);
 
-    
-}
-
-.atividade{
-    text-decoration: none;
-    outline: 0;
-    list-style: none;
-    display: flex;
-    width: 100%;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-atividades{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    list-style-type: none;  
-    padding: 20px;
-    text-align: start;
 
 }
-
-.titulo-atividade{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 100%;
-    position: absolute;
-    height: 300px;
-
-}
-
-ul{
-    list-style-type: none;
-}
-
 
 .cardsgeral {
     z-index: 4;
@@ -261,13 +222,13 @@ ul{
     height: 10%;
     display: flex;
     align-items: center;
-    align-content: center;
+
 }
 
 /* Corpo do site */
 
 
-.avaliacao{
+.avaliacao {
     font-size: 20px;
     display: flex;
     height: 200px;
@@ -278,29 +239,30 @@ ul{
 
 .geralFeedback {
     align-items: center;
-    align-content: center;
+
     display: flex;
     justify-content: center;
-   
+
 }
 
-.geralFeedback > img{
+.geralFeedback>img {
     margin-right: 10px;
     width: 25px;
     height: 25px;
-    
+
 }
-.btnFeed{
+
+.btnFeed {
     display: flex;
     width: 100%;
     height: 100px;
     align-items: center;
-    align-content: center;
+
     justify-content: center;
     position: relative;
 }
 
-#btnFeedback:hover{
+#btnFeedback:hover {
     box-shadow: 0px 2px 10px black;
     background-color: rgba(115, 37, 240, 0.795);
     cursor: pointer;
@@ -309,10 +271,10 @@ ul{
 }
 
 
-#btnFeedback{
-    
+#btnFeedback {
+
     transition: 0.3s all;
-    background-color:#01464d ;
+    background-color: #01464d;
     padding: 10px;
     color: white;
     border-radius: 20px;
@@ -322,20 +284,20 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+
     text-decoration: none;
-   
+
 }
 
-.container-avaliacao{
+.container-avaliacao {
     padding: 30px;
     display: grid;
     justify-content: center;
     align-items: start;
     width: 100%;
     height: 50%;
-    
-    align-content: center;
+
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -364,7 +326,7 @@ ul{
 .home {
     justify-content: center;
     align-items: center;
-    align-content: center;
+
     color: white;
     width: 100vw;
     height: 100vh;
@@ -383,7 +345,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: start;
-    align-content: center;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     flex-wrap: wrap;
@@ -400,7 +362,7 @@ ul{
     width: 169px;
     margin-top: 30px;
     color: white;
-    background-color:#01464d;
+    background-color: #01464d;
     transition: 0.3s all;
     text-decoration: none;
     outline: 0;
@@ -421,57 +383,53 @@ ul{
 }
 
 #btnWat {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    align-content: center;
+
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.centralcontainer{
+.centralcontainer {
     width: 35%;
-    
+
 }
 
-.centralcontainerexp > p{
+.centralcontainerexp>p {
     display: flex;
-  
+
     justify-content: center;
     align-items: center;
-    align-content: center;
-    width: 100%;
     padding: 15px;
-   
+
 }
 
-.porqueasima{
-    width: 100%;
+.porqueasima {
+    padding: 20px;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    /* background-color: aliceblue; */
-    
+
+
     flex-wrap: wrap;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.experiencia{
+.experiencia {
     width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center; 
-    /* background-color: aliceblue; */
+
     flex-wrap: wrap;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -483,8 +441,9 @@ html {
 body {
 
     background-color: rgb(245 242 242 / 93%);
-
+    overflow-x: hidden;
 }
+
 /* 
 .fundo-blur {
     z-index: 2;
@@ -526,7 +485,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        align-content: center;
         flex-wrap: wrap;
     }
 
@@ -562,7 +520,7 @@ body {
     }
 
 
-    #bloco-2.activate{
+    #bloco-2.activate {
         right: -200%;
     }
 
@@ -575,14 +533,15 @@ body {
         right: 0;
         width: 92vw;
     }
-    
-    .centralcontainer{
+
+    .centralcontainer {
         width: 100%;
-        font-size: 17px;
-        padding: 5px;
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;  
     }
 
-    .avaliacao{
+    .avaliacao {
         width: 100vw;
     }
 
