@@ -5,6 +5,12 @@ const menu2 = document.querySelector("#navmenu2");
 const menu3 = document.querySelector("#navmenu3");
 
 
+
+
+
+
+
+
 if (hamburger) {
 
 
@@ -25,15 +31,15 @@ if (menu, menu2, menu3) {
 
     //Assim que clicar nos botões ele fecha automaticamente.
     menu.addEventListener("click", e => {
-    
-            
+
+
         if (menu.contains(e.target)) {
             hamburger.classList.toggle("active");
             bloco2.classList.toggle("active");
-            
+
         }
-        
-       
+
+
 
 
 
