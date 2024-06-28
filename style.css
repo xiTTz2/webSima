@@ -44,7 +44,6 @@ header {
 
 .menu-burguer {
     cursor: pointer;
-
     position: relative;
     width: 61%;
     display: none;
@@ -56,16 +55,13 @@ header {
 
 div>h1 {
     width: 100%;
-      
     font-size: 28px;
-
 }
 
 #bloco-2 {
 
     display: flex;
     align-items: center;
-
     justify-content: end;
     width: 100%;
     padding: 0px 20px;
@@ -101,20 +97,15 @@ div>h1 {
     display: flex;
 }
 
-#bloco-2>a {
-      
+#bloco-2>a {   
     margin: 4px;
-
     padding: 10px;
     font-size: 17px;
     color: black;
     transition: 700ms;
     border-radius: 10px;
 }
-
-
 /* CARDS */
-
 
 .cards {
      box-shadow: rgba(0, 0, 0, 0.19) 0px 15px 30px, rgba(0, 0, 0, 0.23) 0px 10px 9px;
@@ -139,12 +130,8 @@ div>h1 {
     width: 100%;
     justify-content: center;
     align-items: center;
-
     border-radius: 10px;
 }
-
-
-
 
 #titulo-cards {
     font-size: large;
@@ -157,25 +144,21 @@ div>h1 {
 }
 
 #msg-cards{
-    
     width: 100%;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 #cards-texto {
- 
     padding: 5px;
     height: 40%;
     border-top-left-radius:10% 20%;
     bottom: 0;
     right: 0;
     left: 0;
-
     position: absolute;
     font-size: 20px;
     background-color: #cecece;
@@ -184,19 +167,15 @@ div>h1 {
 
 #fotoplacaeletronica {
     background-image: url(assets/placaeletronica.jpg);
- 
 }
 
 
 #fotoinstaleletrica {
     background-image: url(assets/quadroeletrico.jpg);
-  
-
 }
 
 #fotoreparoeletrodomestico {
     background-image: url(assets/consertoeletro.jpg);
-
 }
 
 
@@ -209,7 +188,6 @@ div>h1 {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
-
 }
 
 .cardsgeral {
@@ -221,7 +199,6 @@ div>h1 {
     display: flex;
     align-items: center;
     /* padding-right: 10px; */
-
 }
 
 /* Corpo do site */
@@ -238,7 +215,6 @@ div>h1 {
 
 .geralFeedback {
     align-items: center;
-
     display: flex;
     justify-content: center;
 
@@ -256,7 +232,6 @@ div>h1 {
     width: 100%;
     height: 200px;
     align-items: center;
-
     justify-content: center;
     position: relative;
 }
@@ -265,7 +240,6 @@ div>h1 {
     box-shadow: 0px 0px 20px rgba(115, 37, 240, 0.795);
     background-color: rgba(115, 37, 240, 0.795);
     cursor: pointer;
-   
     filter: brightness(110%);
     transform: scale(1.03);
     color: white;
@@ -275,7 +249,6 @@ div>h1 {
 
 
 #btnFeedback {
-
     transition: 0.3s all ease-out;
     background-color: #01464d;
     padding: 10px;
@@ -287,9 +260,7 @@ div>h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-decoration: none;
-
 }
 
 .container-avaliacao {
@@ -299,13 +270,9 @@ div>h1 {
     align-items: start;
     width: 100%;
     height: 50%;
-
-
-      
 }
 
 .container {
-      
     font-size: 35px;
     justify-content: center;
     display: flex;
@@ -315,14 +282,11 @@ div>h1 {
     width: 100%;
     height: 100%;
     padding: 31px;
-
 }
 
 .box>h2 {
     font-style: normal;
     font-size: 30px;
-      
-
 }
 
 
@@ -347,8 +311,6 @@ div>h1 {
     display: flex;
     justify-content: center;
     align-items: start;
-
-      
     font-size: 20px;
     flex-wrap: wrap;
 }
@@ -387,13 +349,11 @@ div>h1 {
 }
 
 #btnWat {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-
 }
 
 html {
@@ -406,7 +366,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .centralcontainerexp>p {
@@ -415,7 +374,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -426,10 +384,8 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
-
     flex-wrap: wrap;
     font-size: 25px;
-      
 }
 
 .experiencia {
@@ -438,10 +394,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-
     flex-wrap: wrap;
     font-size: 25px;
-      
 }
 
 /* FUNDO SITE */
@@ -483,7 +437,6 @@ body {
         gap: 0;
         margin: 0;
         padding: 0;
-
     }
 
 
@@ -502,19 +455,14 @@ body {
 
     .menu-burguer.active .bar:nth-child(1) {
         opacity: 0;
-
     }
 
     .menu-burguer.active .bar:nth-child(2) {
         transform: translateY(4px) rotate(45deg);
-
-
     }
 
     .menu-burguer.active .bar:nth-child(3) {
         transform: translateY(-4px) rotate(-45deg);
-
-
     }
 
 
@@ -541,8 +489,7 @@ body {
         font-size: 25px;
         padding: 20px;
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;  
     }
     .centralcontainer > p{
         margin-top: 60px;

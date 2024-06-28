@@ -5,8 +5,7 @@ const menu2 = document.querySelector("#navmenu2");
 const menu3 = document.querySelector("#navmenu3");
 
 
-if (hamburger) {
-
+if (menu, menu2, menu3, hamburger) {
 
     // Quando clicado o menu aparece para o usuario
     hamburger.addEventListener("click", () => {
@@ -14,15 +13,6 @@ if (hamburger) {
         hamburger.classList.toggle("active");
         bloco2.classList.toggle("active");
     });
-
-
-
-}
-
-if (menu, menu2, menu3) {
-
-    //Funções para fechar o nav menu sem precisar clicar no "x"
-
     //Assim que clicar nos botões ele fecha automaticamente.
     menu.addEventListener("click", e => {
 
@@ -32,11 +22,6 @@ if (menu, menu2, menu3) {
             bloco2.classList.toggle("active");
 
         }
-
-
-
-
-
     });
 
     menu2.addEventListener("click", e => {
@@ -56,7 +41,5 @@ if (menu, menu2, menu3) {
             bloco2.classList.toggle("active");
         }
     });
-
-
 }
 
