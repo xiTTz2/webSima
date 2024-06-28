@@ -5,12 +5,6 @@ const menu2 = document.querySelector("#navmenu2");
 const menu3 = document.querySelector("#navmenu3");
 
 
-
-
-
-
-
-
 if (hamburger) {
 
 
