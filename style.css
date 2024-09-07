@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +7,13 @@
 }
 
 /* SUPERIOR */
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 header {
     width: 100%;
@@ -89,7 +97,7 @@ div>h1 {
     list-style-type: none;
     position: fixed;
     background-color: rgb(245, 242, 242);
-    background: linear-gradient(to right, white, #cfcfcf 50% );
+    background: linear-gradient(to right, white, #cfcfcf 50%);
 
 }
 
@@ -97,7 +105,7 @@ div>h1 {
     display: flex;
 }
 
-#bloco-2>a {   
+#bloco-2>a {
     margin: 4px;
     padding: 10px;
     font-size: 17px;
@@ -105,10 +113,11 @@ div>h1 {
     transition: 700ms;
     border-radius: 10px;
 }
+
 /* CARDS */
 
 .cards {
-     box-shadow: rgba(0, 0, 0, 0.19) 0px 15px 30px, rgba(0, 0, 0, 0.23) 0px 10px 9px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 15px 30px, rgba(0, 0, 0, 0.23) 0px 10px 9px;
     width: 500px;
     height: 400px;
     border-radius: 10px;
@@ -116,9 +125,6 @@ div>h1 {
     background-color: white;
     color: black;
     margin: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     overflow: hidden;
     margin-top: 100px;
     position: relative;
@@ -126,10 +132,7 @@ div>h1 {
 
 #cards-img {
     height: 100%;
-    display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
 }
 
@@ -137,25 +140,19 @@ div>h1 {
     font-size: large;
     font-size: 30px;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     height: 50%;
 }
 
-#msg-cards{
+#msg-cards {
     width: 100%;
     flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 #cards-texto {
     padding: 5px;
     height: 40%;
-    border-top-left-radius:10% 20%;
+    border-top-left-radius: 10% 20%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -193,31 +190,18 @@ div>h1 {
 .cardsgeral {
     z-index: 4;
     flex-wrap: wrap;
-    justify-content: center;
     width: 100vw;
     height: 10%;
-    display: flex;
-    align-items: center;
-    /* padding-right: 10px; */
+  
 }
 
 /* Corpo do site */
-
 
 .avaliacao {
     font-size: 20px;
     display: flex;
     height: 300px;
     position: relative;
-    /* background-color: aliceblue; */
-}
-
-
-.geralFeedback {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
 }
 
 .geralFeedback>img {
@@ -228,17 +212,16 @@ div>h1 {
 }
 
 .btnFeed {
-    display: flex;
     width: 100%;
     height: 200px;
-    align-items: center;
-    justify-content: center;
     position: relative;
 }
 
 #btnFeedback:hover {
-    box-shadow: 0px 0px 20px rgba(115, 37, 240, 0.795);
-    background-color: rgba(115, 37, 240, 0.795);
+    box-shadow: 0px 0px 20px rgba(50, 37, 240, 0.795);
+    background-color: rgba(40, 37, 240, 0.795);
+    /* box-shadow: 0px 0px 20px rgba(115, 37, 240, 0.795);
+    background-color: rgba(115, 37, 240, 0.795); */
     cursor: pointer;
     filter: brightness(110%);
     transform: scale(1.03);
@@ -257,9 +240,6 @@ div>h1 {
     width: 169px;
     height: 32px;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
 }
 
@@ -291,12 +271,9 @@ div>h1 {
 
 
 .home {
-    justify-content: center;
-    align-items: center;
     color: white;
     width: 100vw;
     height: 100vh;
-    display: flex;
     font-size: 90px;
     /* background: #002c31 */
     background: linear-gradient(#01464d, #002c31);
@@ -316,9 +293,6 @@ div>h1 {
 }
 
 #buttonWat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     border-radius: 20px;
     height: 32px;
@@ -349,9 +323,6 @@ div>h1 {
 }
 
 #btnWat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     position: relative;
 }
@@ -376,13 +347,8 @@ html {
     align-items: center;
 }
 
-
-
 .porqueasima {
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     flex-wrap: wrap;
     font-size: 25px;
@@ -391,9 +357,6 @@ html {
 .experiencia {
     width: 100%;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     font-size: 25px;
 }
@@ -489,12 +452,13 @@ body {
         font-size: 25px;
         padding: 20px;
         display: flex;
-        flex-wrap: wrap;  
+        flex-wrap: wrap;
     }
-    .centralcontainer > p{
+
+    .centralcontainer>p {
         margin-top: 60px;
     }
-    
+
     .avaliacao {
         width: 100vw;
     }
